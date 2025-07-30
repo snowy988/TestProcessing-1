@@ -1,0 +1,5 @@
+1) Naming
+- variable names are too short and are unclear z,q,a,s,t,w,e
+
+Suggestions:
+- Rename z to filePath, q to lines, a to wordCounts, s to cleanedLine, t to words, w to word, e to entry
