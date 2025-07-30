@@ -1,5 +1,50 @@
+
 1) Naming
 - variable names are too short and are unclear z,q,a,s,t,w,e
 
 Suggestions:
 - Rename z to filePath, q to lines, a to wordCounts, s to cleanedLine, t to words, w to word, e to entry
+
+2) Code Structure
+- Entire program is inside the Main() method
+
+Suggestions:
+- Break the coding into separate sections to make the code easier to read, test and reuse
+
+3) Error handling
+- There's no error handling
+-Program crashes if file is unreadable or file path incorrect
+- No validation for user input
+
+Suggestions:
+-Give user clear error messages
+-Use try-catch block to handle errors
+-check if file exists before attampting to read
+
+4) File assumptions
+-The program assumes the file - exists, is readable and is plain text
+
+  Suggestions:
+- Validate file format
+- Add to handle empty/unreadable files
+
+5) OOP Principles
+- Program is fully procedural 
+- no clases, methods or encapsulation
+
+Suggestion:
+- Create clases and methods
+
+6) Output
+- technichelly correct but not well designed
+- uniquez is not clear
+
+Suggestion:
+- change unique to unique words
+- add better output formatting
+
+7) Program Logic
+- Core logic correct
+
+Suggestion:
+- Split code into smaller methods
